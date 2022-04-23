@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/Annynetwork/continious_integration.git
     targetRevision: HEAD
-    path: jenkins
+    path: kubernetes-jenkins
   
   destination:
     server: https://kubernetes.default.svc
