@@ -22,7 +22,7 @@ spec:
   accessModes:
     - ReadWriteOnce
   local:
-    path: http://localhost/java/
+    path: /mnt/
   nodeAffinity:
     required:
       nodeSelectorTerms:
